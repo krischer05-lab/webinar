@@ -148,7 +148,7 @@
   .done h3{font:700 26px/1.15 Montserrat,sans-serif;letter-spacing:-.02em;margin-bottom:12px}
   .done p{color:var(--ink-60);margin-bottom:22px}
   .done .warn{background:var(--blue-05);color:var(--ink);border-radius:16px;padding:14px 16px;font-size:14px;margin-bottom:20px;text-align:left}
-  .done .btn svg{flex:none}
+  .done .note-wait{font-size:13px;color:var(--ink);opacity:.7;margin:14px 0 0}  .done .btn svg{flex:none}
 
   footer{background:var(--dark);color:rgba(255,255,255,.55);font-size:13px;padding:34px 0}
   footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
@@ -372,6 +372,7 @@
         <h3>Вы зарегистрированы!</h3>
         <p>Остался последний шаг — подключите Telegram-бота. Именно туда в день эфира придёт ссылка на Zoom и напоминания.</p>
         <div class="warn">⚠️ Без этого шага ссылку на вебинар вы не получите. Нажмите кнопку и затем <b>«Start / Запустить»</b> в боте.</div>
+        <p class="note-wait">После нажатия Start подтверждение придёт в чат в течение минуты — просто подождите и не закрывайте бота.</p>
         <a class="btn" id="bot-link" href="#" target="_blank" rel="noopener">
           <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M9.8 15.6l-.4 5.3c.6 0 .8-.3 1.1-.6l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 9.6C-.2 10.2-.2 11 1 11.4l5.4 1.7L18.9 5.2c.6-.4 1.1-.2.7.2"/></svg>
           Получить ссылку в Telegram
